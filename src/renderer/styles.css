@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #2e2e2e;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #333333;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+    cursor: pointer;
+  }
+
