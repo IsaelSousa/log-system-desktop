@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, LabelContainer, LabelOne, LabelThree, LabelTwo, LogLevelContainer, Logs } from './styles';
+import { Container, LabelContainer, LabelOne, LabelTwo, LogLevelContainer, Logs } from './styles';
 import { LogLevelColor } from '../../utils/logLevelColor';
 import { NavBar } from 'renderer/src/components/NavBar';
 import { socket } from 'renderer/src/services/websocket';

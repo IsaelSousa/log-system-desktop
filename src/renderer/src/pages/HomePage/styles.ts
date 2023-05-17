@@ -26,7 +26,8 @@ export const LogLevelContainer = styled.div`
     width: 80%;
     color: white;
 
-    border-top: 1px solid white;
+    border-top: 2px solid #007cd5;
+    border-bottom: 2px solid #007cd5;
 
     justify-content: center;
     align-items: center;
@@ -53,6 +54,7 @@ export const LabelOne = styled.div<LabelOneProps>`
     font-size: 10pt;
     font-family: sans-serif;
     font-weight: bold;
+    border-radius: 10px;
 
     display: flex;
     justify-content: center;
@@ -63,6 +65,8 @@ export const LabelOne = styled.div<LabelOneProps>`
 export const LabelTwo = styled.div`
     background: inherit;
     font-size: 12pt;
+    font-weight: bold;
+    color: #003a63;
 `;
 
 export const LabelThree = styled.p`

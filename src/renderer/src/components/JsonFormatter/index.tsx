@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { Active, Container, Copy } from './styles';
+import { TbLayoutBottombarCollapse, TbLayoutNavbarCollapse } from 'react-icons/tb';
 
 type JsonFormatterType = {
     json: any
@@ -20,7 +21,11 @@ export const JsonFormatter = ({
 
     return (
         <Container>
-            <Active onClick={handleButton}>Json</Active>
+            <Active onClick={handleButton}>Json {active
+             ?
+              <TbLayoutBottombarCollapse size={20} style={{ 'background': 'inherit', 'paddingLeft': '4px' }} /> 
+              : <TbLayoutNavbarCollapse size={20} style={{ 'background': 'inherit', 'paddingLeft': '4px' }} />}
+              </Active>
             {active ? 
                 <pre style={{
                     background: 'black',

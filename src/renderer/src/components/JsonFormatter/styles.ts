@@ -9,6 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Active = styled.button`
+    display: flex;
     cursor: pointer;
     padding: 4px;
     border: none;
@@ -17,6 +18,8 @@ export const Active = styled.button`
     color: white;
     font-weight: bold;
     margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const Copy = styled.button`
@@ -26,7 +29,7 @@ export const Copy = styled.button`
     padding-bottom: 5px;
     border-radius: 10px;
     font-weight: bold;
-    color: white;
+    color: black;
     cursor: pointer;
 
     &:hover {

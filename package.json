@@ -1,38 +1,10 @@
 {
-  "description": "A foundation for scalable desktop apps",
-  "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "typescript",
-    "ts",
-    "sass",
-    "webpack",
-    "hot",
-    "reload"
-  ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
-  "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
-  },
+  "name": "log-system-desktop",
+  "description": "Desktop application",
   "license": "MIT",
-  "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
-  },
-  "contributors": [
-    {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    }
-  ],
+  "author": "IsaelSousa",
   "main": "./src/main/main.ts",
+  "version": "1.0.0",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
     "build:main": "cross-env NODE_ENV=production TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.main.prod.ts",
@@ -173,8 +145,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "LogSystemDesktop",
+    "appId": "org.erb.LogSystemDesktop",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
