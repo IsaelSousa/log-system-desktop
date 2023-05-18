@@ -1,6 +1,23 @@
+
 # Log System Desktop
-How to run  
+This application allows what user define specify logs in code of your application.
+
+### How to run
+Is required install C++ to run this application.
+
+```cmd
+    // To install libs
+    yarn or npm install
+
+    // To run application
+    yarn start or npm run start
+
+    // This application work only with log-system-device lib, to install run:
+
+    yarn add log-system-device
+      or
+    npm install log-system-device
 ```
-  yarn or npm install
-  yarn start or yarn run start
-```
+package in npm website [log-system-device](https://www.npmjs.com/package/log-system-device)
+
+
