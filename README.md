@@ -3,7 +3,7 @@
 This application allows what user define specify logs in code of your application.
 
 ### How to run
-Is required install C++ to run this application.
+Is required install C++ to run this application with electron.
 
 ```cmd
     // To install libs
@@ -20,4 +20,6 @@ Is required install C++ to run this application.
 ```
 package in npm website [log-system-device](https://www.npmjs.com/package/log-system-device)
 
+## Desktop App Preview
+![Preview](./assets/logdesktop.png)
 
